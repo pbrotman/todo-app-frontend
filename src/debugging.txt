@@ -1,0 +1,5 @@
+Todo save bug chain:
+
+todo.component.html: saveTodo() -> todo.component.ts: saveTodo()  -> todo-data.service.ts: createTodo() -> post(.../todos)
+
+TodoResource.java: updateTodo() -> TodoHardcodedService: save()
